@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShortCourseActivity"
+    android:background="#697775">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mSCTitle"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:shadowColor="@color/black"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:text="Available Short-Course Scholarships"
+            android:textColor="#9C27B0"
+            android:textSize="43px"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                app:srcCompat="@drawable/emobilis_scrollview" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mBtnEmobilisSC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emobilis Scholarships" />
+    </LinearLayout>
+</ScrollView>

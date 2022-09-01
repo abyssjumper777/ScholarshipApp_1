@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graduationpicthree"
+    tools:context=".MidScrollingActivity">
+
+    <Button
+        android:id="@+id/mBtnHumanities2"
+        android:layout_width="249dp"
+        android:layout_height="65dp"
+        android:background="#9C27B0"
+        android:text="Humanities and Related"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <Button
+        android:id="@+id/mBtnStem2"
+        android:layout_width="218dp"
+        android:layout_height="55dp"
+        android:background="#9C27B0"
+        android:text="STEM Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <EditText
+        android:id="@+id/mTextAvailableScholarships2"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/black"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="Scholarships Available"
+        android:textColor="#9C27B0"
+        android:textSize="69px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "510075939316",
+    "firebase_url": "https://scholarfree-69ecc-default-rtdb.firebaseio.com",
+    "project_id": "scholarfree-69ecc",
+    "storage_bucket": "scholarfree-69ecc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510075939316:android:d176cca86f8ac8545cf1a1",
+        "android_client_info": {
+          "package_name": "com.example.scholarshipapp_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510075939316-cj4br6v8mipinqavlgoo2ms37j2e8qrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8tQ_NzC38W_urDzEO53Z10iwewkDUPA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510075939316-cj4br6v8mipinqavlgoo2ms37j2e8qrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510075939316:android:af3d799f1647fe355cf1a1",
+        "android_client_info": {
+          "package_name": "com.example.schorlashipapp_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510075939316-cj4br6v8mipinqavlgoo2ms37j2e8qrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8tQ_NzC38W_urDzEO53Z10iwewkDUPA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510075939316-cj4br6v8mipinqavlgoo2ms37j2e8qrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
